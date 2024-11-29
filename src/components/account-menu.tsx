@@ -1,3 +1,5 @@
+import { Button } from "./ui/button";
+import { Building, ChevronDown, LogOut } from "lucide-react";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -5,9 +7,7 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@radix-ui/react-dropdown-menu"
-import { Button } from "./ui/button"
-import { Building, ChevronDown, LogOut } from "lucide-react"
+} from "./ui/dropdown-menu";
 
 export function AccountMenu() {
   return (
@@ -39,5 +39,5 @@ export function AccountMenu() {
         </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>
-  )
+  );
 }
