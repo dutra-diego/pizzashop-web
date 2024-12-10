@@ -41,7 +41,7 @@ export function SignIn() {
         },
       });
     } catch {
-      toast.error("Credencias invalidas");
+      toast.error("Credenciais inválidas");
     }
   }
   return (
